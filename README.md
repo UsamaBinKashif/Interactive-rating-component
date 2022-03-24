@@ -16,8 +16,8 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 
 ## Links
 
-- Solution URL: [link](https://github.com/UsamaBinKashif/profile_card-component)
-- Live Site URL: [link](https://usamabinkashif.github.io/profile_card-component/)
+- [Solution URL](https://github.com/UsamaBinKashif/Interactive-rating-component)
+- [Live Site URL](https://usamabinkashif.github.io/profile_card-component/)
 
 <br>
 
