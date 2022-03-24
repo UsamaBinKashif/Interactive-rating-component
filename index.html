@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <!--
+    Custom SCSS
+  -->
+  <link rel="stylesheet" href="scss/main.css">
+
+  <!--
+    Google Fonts
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+
+  <title>Frontend Mentor | Interactive rating component</title>
+
+</head>
+
+<body>
+  <!-- Rating state start -->
+  <section class="rating-card">
+    <a href="#"><img src="images/icon-star.svg" alt="star icon image"></a>
+
+
+    <h1>How did we do?</h1>
+    <p>Please let us know how we did with your support request. All feedback is appreciated to help us improve our
+      offering!</p>
+
+
+    <article>
+      <ul class="stats">
+        <li data-id="1" id="rating-1" class="activate btn">1</li>
+        <li data-id="2" id="rating-2" class="activate btn">2</li>
+        <li data-id="3" id="rating-3" class="activate btn">3</li>
+        <li data-id="4" id="rating-4" class="activate btn">4</li>
+        <li data-id="5" id="rating-5" class="activate btn">5</li>
+      </ul>
+    </article>
+    <button type="submit" id="submit-btn"> Submit </button>
+  </section>
+  <p id="alert"></p>
+  <!-- Rating state end -->
+
+
+
+
+
+
+
+  <!-- Thank you state start -->
+  <section class="thankyou-card  display ">
+    <img src="images/illustration-thank-you.svg" alt=" thankyou image">
+    <div class="thankyou-rating">
+      <p class="rating-stats"></p>
+    </div>
+    <h1>Thank you!</h1>
+    <div class="para">
+      <p>We appreciate you taking the time to give a rating. If you ever need more support,
+        Don’t hesitate to get in touch!
+      </p>
+    </div>
+  </section>
+  <!-- Thank you state end -->
+
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://github.com/UsamaBinKashif">Usama Ahmed</a>.
+  </div>
+
+  <!--
+    Custom Javascript
+  -->
+  <script src="app/app.js"></script>
+
+ 
+</body>
+
+</html>
